@@ -1,4 +1,3 @@
-import React from "react";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import User from "../components/User";
@@ -8,8 +7,8 @@ import Cards from "../components/Cards";
 import Futer from "../components/Futer";
 
 const Home = () => {
-  return
-  <div>
+  return(
+    <div>
     <Navbar/>
     <Hero/>
     <User />
@@ -17,7 +16,8 @@ const Home = () => {
     <Info/>
     <Cards/>
     <Futer/>
-  </div>;
+  </div>
+  )
 };
 
 export default Home;
