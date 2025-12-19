@@ -8,16 +8,17 @@ import Cards from "../components/Cards";
 import Futer from "../components/Futer";
 
 const Home = () => {
-  return
-  <div>
-    <Navbar/>
-    <Hero/>
-    <User />
-    <Phone />
-    <Info/>
-    <Cards/>
-    <Futer/>
-  </div>;
+  return (
+    <div>
+      <Navbar />
+      <Hero />
+      <User />
+      <Phone />
+      <Info />
+      <Cards />
+      <Futer />
+    </div>
+  );
 };
 
 export default Home;
